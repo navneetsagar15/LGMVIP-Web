@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #646661;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #100f0f;
+  /* align-items: baseline; */
+  height: 5%;
+}
+.head-title {
+  font-family: Rockwell; /* Task 2*/
+  margin: 3%;
+  color: #eee2dc;
+  background-color: transparent;
+}
+.bottom-title {
+  font-family: Book Antiqua; /* Navneet Sagar*/
+  margin: 15%;
+  color: #0d0d0d;
+  background-color: transparent;
+}
+.head-btn {
+  width: 100px;
+  height: 2.5rem;
+  margin: 3%;
+  background-color: #eee2dc;
+  border: none;
+  outline: none;
+}
+.card-body {
+  text-align: center;
+  color: rgb(246, 245, 248);
+}
+.card-img-top {
+  width: 100%;
+}
+.users-space {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%;
+}
+.main {
+  border: 3px solid #e7df0a;
+}
